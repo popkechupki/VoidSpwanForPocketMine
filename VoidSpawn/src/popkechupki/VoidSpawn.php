@@ -14,7 +14,7 @@ class VoidSpawn extends PluginBase implements Listener {
   public function onEntityDamage(EntityDamageEvent $event) {
     if($event->getEntity() instanceof Player) {
       switch($event->getCause()) {
-        case VOID:
+        case EntityDamageEvent::CAUSE_VOID:
           $event->setCancelled();
           $event->getEntity()->teleport($event->getEntity()->getLevel()->getSafeSpawn());
       }
