@@ -1,0 +1,2 @@
+# VoidSpwanForPocketMine
+奈落に落ちたらリスポにワープ
