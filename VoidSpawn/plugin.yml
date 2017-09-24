@@ -1,0 +1,9 @@
+
+name: VoidSpawn
+main: popkechupki\VoidSpawn
+version: 1.0
+api: [1.13.0, 2.0.0, 3.0.0]
+load: POSTWORLD
+author: popkechupki
+description: "奈落に落ちたらリスポに戻る"
+web: "http://github.com/popkechupki/VoidSpawnForPocketMine"
